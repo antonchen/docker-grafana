@@ -1,0 +1,2 @@
+#!/usr/bin/with-contenv bash
+/opt/grafana/bin/grafana-server --homepath=/opt/grafana --packaging=docker cfg:default.log.mode='console' cfg:default.paths.data=/grafana
